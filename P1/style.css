@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+    background-image: url(/img/Perna_Calc.gif);
+}
+
+.banner-top{
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.banner-top img{
+    width: 30vw;
+    height: auto;
+}
+
+.banner-top{
+    background-color: #FFFFFF
+    
+}
+
+.container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.container label{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.input-field {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin: 0 auto;
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 145px;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+#resultado.ativo {
+    display: block;
+}
+
+#resultado.aprovado {
+    color: #4CAF50;
+    background-image: url("/img/PERNA.gif"); /* Verde para aprovado */
+}
+
+#resultado.reprovado {
+    color: #F44336;
+    background-image: url("/img/Perna_Sad.gif"); /* Vermelho para reprovado */
+}
